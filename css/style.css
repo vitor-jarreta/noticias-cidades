@@ -1,0 +1,304 @@
+/*===============================================================================================*/
+/* Resetando as formatações padrões do HTML das principais TAGS  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+/*===============================================================================================*/
+/* Iniciando o style próprio do site */
+
+body{
+    font-family: 'Trebuchet MS', 'Helvetica','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(../images/fundo.png) repeat-x top left;
+}
+
+#principal{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#top{
+    height: 180px;
+    background: url(../images/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+
+/* Barra de navegação */
+
+#navegacao{
+    line-height: 2.1em;
+}
+
+#navegacao ul{
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+    border-radius: 20px;
+}
+
+#navegacao ul li{
+    float: left;
+    color: #fff;
+}
+
+#navegacao ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    float: left;
+    background: #b10333 url(../images/divisor.png) no-repeat left center;
+}
+
+#navegacao ul .primeiro a{
+    background: none;
+}
+
+#navegacao ul .ultimo a{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+#navegacao ul a:hover{
+    color: #69001d;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencias #navegacao a#ciencias,
+body.fotos #navegacao a#fotos
+{
+    color: #69001d;
+    background-color: #de003e;
+}
+
+body.home #navegacao ul li.primeiro a#home{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+body.home #navegacao .ultimo a#home{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+
+
+/* fim da barra de navegacao */
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../images/logo.png) no-repeat left top;
+    text-indent: -1600px;
+    color: transparent;
+}
+
+/*================================================================ */
+/* Ínicio da formatação do conteudo do site */
+
+#conteudo{
+    background-color: #f5f5f5;
+    width: 750px;
+    margin: 60px auto;
+}
+
+#tres-colunas #primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario{
+    width: 550px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#uma-coluna #primario{
+    width: 720px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+#rodape{
+    clear: both;
+    background: #b10333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 18px;
+    height: 120px;
+}
+
+.caixa{
+    background: #f3f3f3;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.caixa h2{
+    font-size: 1.1em;
+    background: #294c71;
+    border-radius: 5px;
+    color: white;
+    padding: 3px;
+}
+
+.caixa-conteudo h3{
+    font-size: 0.9em;
+    background-color: #b10333;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin: 5px 0px 5px 0px;
+    display: inline-block;
+}
+
+.caixa-conteudo{
+    padding: 3px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid darkgray;
+}
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid darkgray;
+}
+
+#lateral ul a:hover{
+    color: darkgray;
+    background: #f9f9f9 url(../images/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+label{
+    display: block;
+    font-size: 0.9em;
+    padding: 3px;
+    cursor: pointer;
+}
+
+input{
+    font-size: 0.9em;
+    background-color: white;
+    border-radius: 3.5px;
+    border: 0.5px solid darkgray;
+    width: 100%;
+    margin: 3px 0px 3px 0px;
+    padding: 3px;
+}
+
+input[type="submit"]{
+    font-size: 0.8em;
+    background-color: #b10333;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.caixa-conteudo img{
+    border: 2px solid #294c71;
+    border-radius: 5px;
+}
+
+#uma-coluna .caixa-conteudo img{
+    margin: 0 auto;
+    display: block;
+}
+
+.caixa-conteudo p{
+    font-size: 0.9em;
+    margin: 5px 0px 5px 0px;
+    text-align: justify;
+}
+
+.caixa-conteudo a{
+    font-size: 1em;
+    color: #b10333;
+    margin: 3px 0px 3px 0px;
+}
+
+.lista-noticias li{
+    border-bottom: 1px solid darkgray;
+}
+
+.lista-noticias li a{
+    width: 100%;
+    display: block;
+    text-align: left;
+    color: black;
+    height: 65px;
+}
+
+.lista-noticias li:hover{
+    background: #f9f9f9;
+}
+
+.lista-noticias li h4{
+    font-size: 0.9em;
+    color: #294c71;
+    text-align: left;
+}
+
+.lista-noticias li p{
+    text-align: left;
+}
+
+.lista-noticias li img{
+    width: 75px;
+    float: left;
+    margin: 5px;
+}
