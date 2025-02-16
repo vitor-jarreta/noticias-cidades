@@ -48,9 +48,9 @@
     <h3>Resultados</h3>
     <p>Os resultados podem ser visualizados de duas maneiras, por meio das imagens anexadas abaixo ou por meio da hospedagem feita pelo github Pages, assim tornando um site vívido e podendo ser feita a devida interessão com ele.</p>
     <h4>Imagens</h4>
-    <img src= "../images/results/home-page.png"><br>
-    <img src="../images/results/brasil-page.png"><br>
-    <img src="../images/results/foto-page.png"><br>
+    <img src= "../main/images/results/home-page.png"><br>
+    <img src="../main/images/results/brasil-page.png"><br>
+    <img src="../main/images/results/foto-page.png"><br>
     <h4>Hospedagem GitHub Pages</h4>
     <p>Podem acessar o site por meio do seguinte link: <a href="https://vitor-jarreta.github.io/noticias-cidades/html/index.html" target="_blank">Notícias Cidades - GitHub Pages</a></p>
     <hr>
