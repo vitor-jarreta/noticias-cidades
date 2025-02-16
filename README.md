@@ -1,60 +1,58 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README - Noticias Cidades</title>
-</head>
-<body>
-    <h1>noticias-cidades</h1>
+<div align = "center">
+  <h1 align="center">Notícias Cidades</h1>
+  <a href = "mailto:vitorjarreta@gmail.com?subject=Gostaria de Entrar em contato">
+    <img src = "https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href = "https://www.linkedin.com/in/vitor-jarreta-a5ba2a207" >
+    <img src = "https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://www.kaggle.com/vitorjarretaribeiro">
+    <img src = "https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white">
+  </a>
+</div>
 
-    <h2>Descrição do Projeto</h2>
+<div>
+  <br>
+  <p>⭐ Favorite no seu Git!! Isso me motiva</p>
+</div>
+
+<div align="center">
+  <br>
+  <p><strong>Compartilhe:</strong></p>
+  <a href="https://x.com/intent/tweet?text=Check%20out%20this%20project%20on%20GitHub:%20https://github.com/vitor-jarreta/noticias-cidades"><img src= "https://img.shields.io/badge/compartilhe-000000?logo=x&logoColor=white"></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/vitor-jarreta/noticias-cidades"><img src="https://img.shields.io/badge/Compartilhe-1877F2?logo=facebook&logoColor=white"></a>
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/vitor-jarreta/noticias-cidades"><img src="https://img.shields.io/badge/Compartilhe-0A66C2?logo=linkedin&logoColor=white"></a>
+  <a href="https://www.instagram.com/vitorjarreta"><img src="https://img.shields.io/badge/Compartilhe-DD2A7B?logo=instagram&logoColor=white"></a>
+  <a href="https://www.reddit.com/submit?url=https://github.com/vitor-jarreta/noticias-cidades"><img src="https://img.shields.io/badge/Compartilhe-FF4500?logo=reddit&logoColor=white"></a>
+  <a href="https://api.whatsapp.com/send?text=https://github.com/vitor-jarreta/noticias-cidades"><img src="https://img.shields.io/badge/Compartilhe-25D366?logo=whatsapp&logoColor=white"></a>
+</div>
+
+<div>
+    <hr>
+    <h3>Descrição do Projeto</h3>
     <p>Este é um projeto para a construção de um site fictício chamado "Noticias Cidades". O intuito deste projeto é demonstrar meus conhecimentos em HTML e CSS.</p>
-
-    <h2>Objetivo</h2>
+    <h3>Objetivo</h3>
     <p>O objetivo principal é criar diferentes tipos de layouts utilizando técnicas de CSS, como float e a ideia de margin negativa para posicionar os elementos corretamente.</p>
-
-    <h2>Layouts Disponíveis</h2>
-    <ul>
-        <li>Layout com 3 colunas</li>
-        <li>Layout com 2 colunas</li>
-        <li>Layout com 1 coluna</li>
-    </ul>
-
-    <h2>Tecnologias Utilizadas</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-    </ul>
-
-    <h2>Estrutura do Projeto</h2>
-    <p>O projeto está organizado da seguinte forma:</p>
-    <pre>
-noticias-cidades/
-├── index.html
-├── css/
-│   ├── estilo.css
-├── img/
-│   ├── logo.png
-│   ├── banner.jpg
-├── js/
-│   ├── script.js
-    </pre>
-
-    <ul>
-        <li><code>index.html</code>: Página principal do site.</li>
-        <li><code>css/</code>: Pasta contendo os arquivos CSS.</li>
-        <li><code>img/</code>: Pasta contendo as imagens utilizadas no site.</li>
-        <li><code>js/</code>: Pasta contendo os arquivos JavaScript (se aplicável).</li>
-    </ul>
-
-    <h2>Como Visualizar</h2>
-    <p>Para visualizar o projeto, basta abrir os arquivos HTML em um navegador web.</p>
-
-    <h2>Hospedagem</h2>
-    <p>O site está hospedado no GitHub Pages e pode ser acessado através do seguinte link: <a href="https://seuusuario.github.io/noticias-cidades">https://seuusuario.github.io/noticias-cidades</a></p>
-
-    <h2>Autor</h2>
-    <p>Este projeto foi desenvolvido como parte do curso de desenvolvimento web completo da Udemy.</p>
-</body>
-</html>
+    <h3>Layouts Disponíveis</h3>
+    <p>Por meio do float foi possível construir 3 tipos de Layouts:
+        <ul>
+            <li>3 colunas</li>
+            <li>2 colunas</li>
+            <li>1 coluna</li>
+        </ul>
+        São respectivamente as páginas Index, Brasil e Fotos</p>
+</div>
+    
+<div>
+    <hr>
+    <h3>Resultados</h3>
+    <p>Os resultados podem ser visualizados de duas maneiras, por meio das imagens anexadas abaixo ou por meio da hospedagem feita pelo github Pages, assim tornando um site vívido e podendo ser feita a devida interessão com ele.</p>
+    <h4>Imagens</h4>
+    <img src= "../images/results/home-page.png"><br>
+    <img src="../images/results/brasil-page.png"><br>
+    <img src="../images/results/foto-page.png"><br>
+    <h4>Hospedagem GitHub Pages</h4>
+    <p>Podem acessar o site por meio do seguinte link: <a href="">Notícias Cidades - GitHub Pages</a></p>
+    <hr>
+    <p>Esse projeto foi aplicado e idealizado pelo <a href="https://www.linkedin.com/in/jamiltondamasceno/" target="_blank"><strong>Jamilton Damasceno</strong></a> no curso de <a href="https://www.udemy.com/course/web-completo" target="_blank"><strong>Desenvolvimento Web Completo</strong></a> disponibilizado na Udemy.</p>
+</div>
