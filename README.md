@@ -52,7 +52,7 @@
     <img src="../images/results/brasil-page.png"><br>
     <img src="../images/results/foto-page.png"><br>
     <h4>Hospedagem GitHub Pages</h4>
-    <p>Podem acessar o site por meio do seguinte link: <a href="">Notícias Cidades - GitHub Pages</a></p>
+    <p>Podem acessar o site por meio do seguinte link: <a href="https://vitor-jarreta.github.io/noticias-cidades/html/index.html" target="_blank">Notícias Cidades - GitHub Pages</a></p>
     <hr>
     <p>Esse projeto foi aplicado e idealizado pelo <a href="https://www.linkedin.com/in/jamiltondamasceno/" target="_blank"><strong>Jamilton Damasceno</strong></a> no curso de <a href="https://www.udemy.com/course/web-completo" target="_blank"><strong>Desenvolvimento Web Completo</strong></a> disponibilizado na Udemy.</p>
 </div>
